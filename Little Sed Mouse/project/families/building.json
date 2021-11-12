@@ -1,0 +1,20 @@
+{
+	"name": "Building",
+	"plugin-id": "Sprite",
+	"sid": 985554667406290,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "shadowcaster",
+			"name": "ShadowCaster",
+			"sid": 708671707043449
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"HouseA",
+		"HouseB",
+		"HouseC",
+		"HouseD"
+	]
+}

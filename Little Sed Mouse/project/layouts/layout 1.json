@@ -1125,13 +1125,21 @@
 					},
 					"uid": 4,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"ShadowCaster": {
+							"properties": {
+								"height": 10,
+								"tag": "",
+								"enabled": true
+							}
+						}
+					},
 					"world": {
 						"x": 970,
 						"y": 546,
-						"width": 1934.0125000000003,
+						"width": 401.49375000000003,
 						"height": 897.6851851851852,
-						"originX": 0.5,
+						"originX": 2.408521303258145,
 						"originY": 0.6182857142857143,
 						"color": [
 							1,
@@ -1413,7 +1421,7 @@
 					"world": {
 						"x": 1751.3000271459002,
 						"y": 498.118385533024,
-						"width": 114.21034694391022,
+						"width": 114.21034694391024,
 						"height": 698.4847515789011,
 						"originX": 0.7818181818181819,
 						"originY": 0.9768518518518519,
@@ -1431,24 +1439,24 @@
 				{
 					"type": "prova1",
 					"properties": {
-						"light-height": 200,
-						"light-radius": 0,
+						"light-height": 0,
+						"light-radius": 100,
 						"shadow-color": [
-							1,
-							0.9803921568627451,
-							1,
+							0.2,
+							0.2,
+							0.2,
 							1
 						],
 						"cast-from": "all",
-						"tag": "HouseA 4",
+						"tag": "",
 						"live-preview": false
 					},
 					"uid": 42,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 543,
-						"y": 106,
+						"x": 558,
+						"y": -261,
 						"width": 50,
 						"height": 50,
 						"originX": 0.5,
@@ -1457,7 +1465,7 @@
 							1,
 							1,
 							1,
-							1
+							0.5
 						],
 						"zElevation": 0
 					}
@@ -1490,6 +1498,117 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "HouseB",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 18,
+					"instanceVariables": {},
+					"behaviors": {
+						"ShadowCaster": {
+							"properties": {
+								"height": 10,
+								"tag": "",
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 970,
+						"y": 546,
+						"width": 357,
+						"height": 743,
+						"originX": 1.6834733893557423,
+						"originY": 0.550471063257066,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "HouseC",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 19,
+					"instanceVariables": {},
+					"behaviors": {
+						"ShadowCaster": {
+							"properties": {
+								"height": 10,
+								"tag": "",
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 970,
+						"y": 546,
+						"width": 455,
+						"height": 875,
+						"originX": 0.47692307692307695,
+						"originY": 0.6182857142857143,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "HouseD",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 20,
+					"instanceVariables": {},
+					"behaviors": {
+						"ShadowCaster": {
+							"properties": {
+								"height": 10,
+								"tag": "",
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 970,
+						"y": 546,
+						"width": 616,
+						"height": 585,
+						"originX": -0.560064935064935,
+						"originY": 0.42905982905982903,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 412402948489238,
@@ -1507,7 +1626,7 @@
 				0.3686274509803922,
 				1
 			],
-			"isTransparent": false,
+			"isTransparent": true,
 			"parallaxX": 1,
 			"parallaxY": 1,
 			"scaleRate": 1,

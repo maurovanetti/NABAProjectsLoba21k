@@ -47,6 +47,14 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "shadowcaster",
+			"name": "Shadow caster",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "dodge",
 			"name": "Dodge",
@@ -81,14 +89,19 @@
 			"redLight",
 			"Sprite",
 			"prova1",
-			"col"
+			"col",
+			"HouseB",
+			"HouseC",
+			"HouseD"
 		],
 		"subfolders": []
 	},
 	"autosaveData": null,
 	"containers": [],
 	"families": {
-		"items": [],
+		"items": [
+			"Building"
+		],
 		"subfolders": []
 	},
 	"layouts": {

@@ -1,7 +1,7 @@
 {
-	"name": "HouseA",
+	"name": "HouseB",
 	"plugin-id": "Sprite",
-	"sid": 262949414351625,
+	"sid": 407024444405674,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,31 +11,33 @@
 			{
 				"frames": [
 					{
-						"width": 399,
-						"height": 875,
-						"originX": 2.408521303258145,
-						"originY": 0.6182857142857143,
+						"width": 357,
+						"height": 743,
+						"originX": 1.6834733893557423,
+						"originY": 0.550471063257066,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4950740,
+						"imageSpriteId": 5450261,
 						"collisionPoly": {
 							"points": [
 								0,
-								0.6468571428571428,
+								0.4549125168236878,
 								1,
-								0.6468571428571432,
+								0.03499327052489906,
 								1,
-								0.9748571428571428,
+								0.9300134589502015,
+								0.903361344537815,
+								0.9676985195154777,
 								0,
-								0.9725714285714282
+								0.9730820995962316
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 493432046919074,
+				"sid": 720136040971582,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
